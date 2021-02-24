@@ -84,7 +84,7 @@ Suppose we draw a single marble from our imaginary box, where all the marbles
 are equally likely to be selected. What is the probability the marble is blue? 
 How about white?
 
-3/8, 
+blue=3/8, white=1/8
 
 We can simulate this "drawing" with the `sample()` function.
 
@@ -111,6 +111,7 @@ prop.table(counts)
 ```
 
 How close is this value to the "true" probability?
+It is very close. It gets even closer the higher the sample size.
 
 **To summarize our process:**
 
